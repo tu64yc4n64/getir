@@ -1,0 +1,21 @@
+.link-logos {
+    filter: brightness(5%) invert(90%) sepia(72%) saturate(3333%) hue-rotate(180deg) contrast(102%);
+}
+.active-link {
+    background-color: #333;
+}
+.header-links:not(:last-child){
+    margin-right: 1px;
+}
+.header-links.active .link-logos {
+    filter: none;
+}
+.header-links:hover {
+    background-color: #5d3ebc;
+    border-radius: 6px 6px 0px 0px;
+}
+.header-links.active {
+    cursor:auto;
+    background-color: #5d3ebc;
+    border-radius: 6px 6px 0px 0px;
+}
