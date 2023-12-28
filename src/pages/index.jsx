@@ -1,0 +1,5 @@
+export { default as HomePage } from "./HomePage"
+export { default as FoodPage } from "./FoodPage"
+export { default as BigPage } from "./BigPage"
+export { default as WaterPage } from "./WaterPage"
+export { default as BazaarPage } from "./BazaarPage"
