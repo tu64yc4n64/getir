@@ -1,0 +1,60 @@
+.flag-select {
+    padding-bottom: 0 !important;
+    height: 56px;
+    width: 109px;
+}
+.flag-select button {
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 2px solid rgb(223, 222, 226);
+    border-radius: 4px;
+    transition: border-color 0.4s ease 0s;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    font-size: 14px !important;
+    color: #000;
+}
+.flag-select button:focus{
+    border-color: #5d3ebc;
+}
+.flag-select svg {
+  display: inline-block;
+    width: 18px;
+    height: 13px;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+.ReactFlagsSelect-module_selectValue__152eS {
+    padding: 0 !important;
+}
+.ReactFlagsSelect-module_label__27pw9 {
+    padding-left: 0 !important;
+}
+.flag-select ul {
+padding: 0px;
+    margin: 8px 0px 10px -1px;
+    box-shadow: rgba(93, 62, 188, 0.2) 0px 4px 24px;
+    max-height: 200px;
+    overflow-y: scroll;
+    background: rgb(255, 255, 255);
+    border-radius: 2px;
+    top: 100%;
+    border: none;
+    outline: none;
+}
+.flag-select ul li {
+padding: 6px 8px;
+    color: rgb(107, 107, 107);
+    margin: 0;
+    font-size: 14px;
+}
+.flag-select ul li:hover {
+background-color: rgb(241, 241, 241);
+}
+
+
+

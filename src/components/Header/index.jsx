@@ -1,7 +1,7 @@
 import Navigations from "./Navigations"
 import Language from "./Language"
 import Login from "./Login"
-import Register from "./Login"
+import Register from "./Register"
 
 
 const Header = () => {
