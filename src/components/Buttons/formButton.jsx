@@ -8,7 +8,7 @@ const FormButton = ({ children }) => {
             cursor-pointer
             text-[14px]
             text-center
-            
+            mb-[16px]
             text-color
             bg-formButton
             hover:text-hoverFormButtonColor
