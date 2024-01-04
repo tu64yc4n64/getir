@@ -1,0 +1,37 @@
+.footer-bottom-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom-list li {
+    transition: background-color 200ms ease 0s;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom-list li:hover {
+background-color: #f3f0fe;
+}
+.footer-bottom-list li:hover path{
+    fill: #7849f7;
+}
+.footer-bottom-list li:last-child {
+        border: 1px solid #f3f0fe;
+}
+.footer-bottom-list li:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-bottom-list li:last-child button {
+    color: #697488 ;
+    font-size: 13px;
+}
+.footer-bottom-list li:last-child svg path {
+    fill: #697488;
+}
+.footer-bottom-list li:last-child:hover button {
+    color: #5d3ebc; 
+}
+.footer-bottom-list li:last-child:hover svg path {
+    fill: #5d3ebc;
+}
