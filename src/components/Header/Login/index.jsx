@@ -1,10 +1,9 @@
 import HeaderButton from '../../Buttons/headerButtons'
-import { useDispatch, } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { LoginModalOpen } from '../../../stores/modal';
 
 
 const Login = () => {
-
     const dispatch = useDispatch()
     const handleLoginModalOpen = () => {
         dispatch(LoginModalOpen(true));
