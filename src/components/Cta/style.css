@@ -1,0 +1,14 @@
+.cta-list li:not(:last-child) {
+    margin-right: 8px;
+}
+.cta-list figure {
+    width: 160px;
+    
+}
+.cta-bg {
+    background-color: #5d3ebc;
+    background-image: url("https://cdn.getir.com/getirweb-images/common/illustration/doodle.png");
+    overflow: hidden;
+    min-height: 312px;
+    border-radius: 8px;
+}

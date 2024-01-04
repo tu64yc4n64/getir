@@ -1,0 +1,7 @@
+.cta-list li:not(:last-child) {
+    margin-right: 8px;
+}
+.cta-list figure {
+    width: 160px;
+    
+}
