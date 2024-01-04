@@ -1,0 +1,6 @@
+.checkbox-label:hover .check-box {
+    border-color: #7849f7;
+}
+.check-box {
+    transition: all 0.3s;
+}
