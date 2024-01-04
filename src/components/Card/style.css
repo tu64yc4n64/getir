@@ -1,0 +1,7 @@
+.card:not(:last-child) {
+    margin-right: 16px;
+}
+.card {
+    box-shadow: rgba(93, 62, 188, 0.04) 0px 6px 24px;
+    background-color: #fff;
+}
