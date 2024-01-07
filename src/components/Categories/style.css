@@ -1,6 +1,6 @@
 .category{
-    grid-template-columns: repeat(10, 1fr);
-        position: relative;
-    display: grid;
-    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
 }

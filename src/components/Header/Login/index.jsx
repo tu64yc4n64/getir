@@ -17,7 +17,10 @@ const Login = () => {
                     </path>
                 </svg>
             </div>
-            Giriş Yap
+            <span className='lg:block hidden'>
+                Giriş Yap
+            </span>
+
         </HeaderButton>
     )
 }

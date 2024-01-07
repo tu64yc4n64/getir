@@ -1,3 +1,8 @@
 .category-item:hover span {
     color: #5d3ebc;
 }
+@media screen and (max-width: 767px) {
+  .card {
+    width: 100% !important;
+  }
+}

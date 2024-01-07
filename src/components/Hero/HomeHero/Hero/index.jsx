@@ -23,7 +23,7 @@ const Hero = ({ slides }) => {
 
         <Slider {...settings}>
             {slides.map((slide, index) => (
-                <div key={index}><img className="w-[100%] h-[100%]" src={slide.img} alt="" /></div>
+                <div key={index}><img className="w-[100%] h-[500px] object-cover" src={slide.img} alt="" /></div>
             ))}
         </Slider>
 

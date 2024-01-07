@@ -2,7 +2,19 @@ import "./style.css"
 
 const CategoryItem = ({ img, name }) => {
     return (
-        <div className="min-h-[109px] flex items-center justify-center rounded-[4px] transition-all hover:bg-[#f3f0fe] category-item" >
+        <div className="min-h-[109px] 
+        flex
+        items-center
+        justify-center
+        rounded-[4px]
+        transition-all
+        hover:bg-[#f3f0fe]
+        category-item
+        lg:w-1/10
+        md:w-1/5
+        w-1/4
+        
+        " >
             <div className="w-full flex items-center justify-center">
                 <a href="" className="flex flex-col items-center justify-center w-full">
                     <figure className="w-[48px] h-[48px] flex items-center justify-center">

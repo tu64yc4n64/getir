@@ -11,3 +11,6 @@ overflow: hidden;
     margin-left: auto;
     margin-right: auto;
 }
+.slick-slide div {
+    height: 100%;
+}

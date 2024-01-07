@@ -3,8 +3,8 @@ import { card } from "../../../utils/consts"
 
 const CardSection = () => {
     return (
-        <section className="mt-[32px] pb-[64px]">
-            <div className="max-w-[1232px] mx-auto flex">
+        <section className="md:mt-[32px] mt-4 md:mb-0 md:pb-[64px] md:px-0 px-4 pb-4 md:bg-transparent bg-[#fafafa]">
+            <div className="max-w-[1232px] mx-auto md:flex ">
                 {card.map((item, i) => (
                     <Card
                         key={i}

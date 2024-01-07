@@ -12,3 +12,8 @@
     min-height: 312px;
     border-radius: 8px;
 }
+@media screen and (max-width: 767px) {
+  .cta-list li {
+    margin-bottom: 8px;
+  }
+}

@@ -17,7 +17,9 @@ const Register = () => {
                     </path>
                 </svg>
             </div>
-            Kayıt Ol
+            <span className='lg:block hidden'>
+                Kayıt Ol
+            </span>
         </HeaderButton>
     )
 }

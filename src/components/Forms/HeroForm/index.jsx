@@ -1,8 +1,8 @@
 
 
-const HeroForm = ({ children }) => {
+const HeroForm = ({ children, className }) => {
     return (
-        <div className='w-[400px] p-[24px] bg-[#fff] rounded-[8px]'>
+        <div className={`${className}`}>
             {children}
         </div>
     )

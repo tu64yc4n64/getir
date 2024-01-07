@@ -3,3 +3,10 @@
     width: 446px;
     border-radius: 8px !important;
 }
+@media screen and (max-width: 992px) {
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    height: 100%;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+  }
+}

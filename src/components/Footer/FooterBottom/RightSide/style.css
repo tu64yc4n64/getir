@@ -35,3 +35,9 @@ background-color: #f3f0fe;
 .footer-bottom-list li:last-child:hover svg path {
     fill: #5d3ebc;
 }
+@media screen and (max-width: 767px) {
+  .footer-bottom-list li:last-child button {
+    background-color: #fff;
+    border-radius: 8px;
+}
+}

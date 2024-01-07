@@ -23,7 +23,8 @@ export default {
       },
       width: {
         "1232": "1232px",
-        "card": "400px"
+        "card": "400px",
+        "1/10": "10%"
       },
       borderColor: {
         input: "#dfdee2",

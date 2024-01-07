@@ -26,7 +26,7 @@ const GetirIsOrtagi = () => {
 
 
     return (
-        <div className='mr-6 flex-1 flex-shrink-1'>
+        <div className='mr-6 md:flex-1 md:flex-shrink-1'>
             <FooterListsHeader>
                 İş Ortağımız Ol
             </FooterListsHeader>

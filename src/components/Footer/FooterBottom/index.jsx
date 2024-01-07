@@ -3,7 +3,7 @@ import RightSide from "./RightSide"
 
 const FooterBottom = () => {
     return (
-        <div className="flex justify-between w-full">
+        <div className="md:flex justify-between w-full md:bg-transparent ">
             <LeftSide />
             <RightSide />
         </div>

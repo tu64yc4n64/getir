@@ -10,7 +10,9 @@ const Language = () => {
                     </path>
                 </svg>
             </div>
-            Türkçe (TR)
+            <span className='lg:block hidden'>
+                Türkçe (TR)
+            </span>
         </LanguageButton>
     )
 }

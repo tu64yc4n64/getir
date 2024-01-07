@@ -8,7 +8,16 @@ const LanguageButton = ({ children }) => {
     };
     return (
         <div className='mr-[4px]'>
-            <button onClick={handleLanguageModalOpen} className='font-[400] text-[#dbdbff] flex items-center py-[7px] pl-[16px] pr-[12px] text-[14px]'>
+            <button onClick={handleLanguageModalOpen}
+                className='
+                font-[400]
+                text-[#dbdbff]
+                flex items-center
+                lg:py-[7px]
+                lg:pl-[16px]
+                lg:pr-[12px]
+                md:p-[6px]
+                text-[14px]'>
                 {children}
             </button>
         </div>

@@ -12,3 +12,8 @@
     margin-right: 10px;
     color: rgb(93, 62, 188);
 }
+@media screen and (max-width: 767px) {
+  .footer-bottom-list-item::before {
+   display: none;
+  }
+}

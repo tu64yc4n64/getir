@@ -2,7 +2,7 @@ import "./style.css"
 
 const Card = ({ header, text, src }) => {
     return (
-        <div className='card w-card pt-[60px] pb-[40px] px-4 rounded-lg font-600 text-4'>
+        <div className='card w-card pt-[60px] pb-[40px] px-4 rounded-lg font-600 text-4 md:mb-0 mb-4'>
             <div className="flex flex-col items-center ">
                 <figure className='w-[150px] h-[150px]'>
                     <img className="w-full h-[100%]" src={src} alt="" />

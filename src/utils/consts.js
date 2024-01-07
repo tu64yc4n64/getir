@@ -8,27 +8,27 @@ import { Home1, Home2, Home3, Home4 } from "../assets/HomeHero"
 
 export const pageMenu = [
     {
-        path: "/",
+        path: "",
         title: "Getir",
         src: getir
     },
     {
-        path: "/yemek",
+        path: "yemek",
         title: "GetirYemek",
         src: getiryemek
     },
     {
-        path: "/buyuk",
+        path: "buyuk",
         title: "GetirBüyük",
         src: getirbuyuk
     },
     {
-        path: "/su",
+        path: "su",
         title: "GetirSu",
         src: getirsu
     },
     {
-        path: "/carsi",
+        path: "carsi",
         title: "GetirÇarşı",
         src: getircarsi
     },

@@ -11,12 +11,12 @@ const Categories = () => {
     }, []);
 
     return (
-        <section className="category-section bg-[#fff] py-[24px]">
-            <div className="w-[1232px] mx-auto">
-                <h6 className='text-[14px] text-[#191919] mb-[8px] font-[600]'>Kategoriler</h6>
+        <section className=" bg-[#f5f5f5] md:bg-[#fff] md:py-[24px] md:px-8 lg:px-0 py-3">
+            <div className="max-w-[1232px] mx-auto">
+                <h6 className='text-[14px] text-[#191919] mb-[8px] font-[600] md:ml-0 ml-4'>Kategoriler</h6>
             </div>
 
-            <div className="w-[1232px] mx-auto category">
+            <div className="max-w-[1232px] mx-auto category">
                 {categories && categories.map((item) => (
                     <CategoryItem
                         key={item.id}
