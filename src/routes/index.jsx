@@ -13,19 +13,19 @@ const routes = createBrowserRouter([
                 element: <HomePage />
             },
             {
-                path: "yemek",
+                path: "",
                 element: <FoodPage />
             },
             {
-                path: "buyuk",
+                path: "",
                 element: <BigPage />
             },
             {
-                path: "su",
+                path: "",
                 element: <WaterPage />
             },
             {
-                path: "carsi",
+                path: "",
                 element: <BazaarPage />
             },
 
