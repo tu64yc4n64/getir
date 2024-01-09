@@ -33,7 +33,10 @@ const RightSide = () => {
                     </a>
                 </li>
                 <li>
-                    <Language></Language>
+                    <Language>
+                        <span className='lg:hidden block'>
+                            Türkçe (TR)
+                        </span></Language>
                 </li>
             </ul>
         </div>

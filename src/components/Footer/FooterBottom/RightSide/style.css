@@ -39,5 +39,6 @@ background-color: #f3f0fe;
   .footer-bottom-list li:last-child button {
     background-color: #fff;
     border-radius: 8px;
+    padding: 0 10px;
 }
 }

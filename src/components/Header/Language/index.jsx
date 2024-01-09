@@ -1,7 +1,7 @@
 import LanguageButton from "../../Buttons/languageButton"
 
 
-const Language = () => {
+const Language = ({ children }) => {
     return (
         <LanguageButton >
             <div className="w-[24px] h-[24px] flex items-center jutify-center">
@@ -13,6 +13,7 @@ const Language = () => {
             <span className='lg:block hidden'>
                 Türkçe (TR)
             </span>
+            {children}
         </LanguageButton>
     )
 }
