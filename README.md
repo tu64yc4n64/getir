@@ -1,5 +1,5 @@
 # If you want to see my project
-[https://unique-empanada-e873c5.netlify.app/](https://cerulean-lamington-518e7c.netlify.app/)
+https://cerulean-lamington-518e7c.netlify.app/
 
 # Used Technologies
 - "vite": "^5.0.0"
