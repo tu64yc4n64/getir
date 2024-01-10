@@ -18,7 +18,7 @@ const Footer = () => {
                     <Etbis />
                 </div>
             </nav>
-            <div className=" flex w-full mx-auto max-w-[1232px] md:py-6 bg-[#f5f5f5] p-4 border-t border-[#f3f0fe]">
+            <div className=" flex w-full mx-auto max-w-[1232px] md:py-6 bg-[#f5f5f5] md:bg-[#fff] p-4 border-t border-[#f3f0fe]">
                 <FooterBottom />
             </div>
         </footer>
